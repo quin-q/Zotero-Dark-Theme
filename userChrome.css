@@ -31,8 +31,6 @@ grippy{ opacity: .5 !important; }
 /*change background and color of collections and items panes*/
 treechildren{ background: #323234 !important;
 color: #FFFFFF !important; }
-
-
 /*increase spacing between rows in collections and items and add a border to separate panes*/
 /*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
 #zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
@@ -57,15 +55,12 @@ color: #FFFFFF !important; border: 0 !important; }
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
 
-
 /*change background and color of items when selecting*/
 #zotero-items-tree treechildren::-moz-tree-row(selected) { background: #23233a !important;
 color: #FFFFFF !important; border: 0 !important;
 border-bottom: 0px solid #1d1d1d !important; }
 #zotero-items-tree treechildren::-moz-tree-cell-text(selected) {
 	color: #FFFFFF !important; border: 0 !important; }
-
-
 
 /*change background and color of columns field selector*/
 #zotero-items-tree treecol { -moz-appearance: none !important;
